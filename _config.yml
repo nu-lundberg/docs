@@ -1,8 +1,18 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: firedev
+description: Firedevs dokumentation-sida
 theme: just-the-docs
+favicon_ico: "/assets/images/favicon.ico"
+domain: docs.firedev.se       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://docs.firedev.se  # the base hostname and protocol for your site, e.g. http://example.com
 
-url: https://just-the-docs.github.io
-
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+# Define Jekyll collections
+collections:
+  easy:
+    output: true
+    permalink: /:collection/:path/
+  intermediate:
+    output: true
+    permalink: /:collection/:path/
+  advanced:
+    output: true
+    permalink: /:collection/:path/
