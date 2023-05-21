@@ -4,10 +4,12 @@ theme: just-the-docs
 favicon_ico: "/assets/images/favicon.ico"
 domain: docs.firedev.se       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://docs.firedev.se  # the base hostname and protocol for your site, e.g. http://example.com
+logo: "/assets/images/logo.png"
+
 
 # Define Jekyll collections
 collections:
-  easy:
+
     output: true
     permalink: /:collection/:path/
   intermediate:
